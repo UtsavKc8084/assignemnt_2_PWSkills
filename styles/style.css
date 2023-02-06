@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  text-align: center;
+  padding: 60px 80px;
+  column-gap: 50px;
+}
+.nav-lists {
+  display: flex;
+}
+
+.nav-items {
+  padding: 0 20px;
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: large;
+}
+
+.nav-btn {
+  margin-left: 150px;
+  padding: 15px 35px;
+}
+.btn {
+  background-color: #5955b3;
+  color: white;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.main-section {
+  background: url("../assets/Header\ Illustration.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 100vh;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  margin-left: 80px;
+  font-weight: bolder;
+  font-size: 70px;
+  color: #3c2f60;
+}
+
+.main-header b {
+  color: #5955b3;
+}
+
+.left-section p {
+  margin-left: 80px;
+  padding: 25px 0 50px 0;
+  color: #828282;
+  font-weight: lighter;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+
+.section-btn {
+  max-width: 185px;
+  margin-left: 80px;
+  height: 60px;
+}
